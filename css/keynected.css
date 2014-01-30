@@ -1,9 +1,4 @@
 html,
-@font-face {
-	font-family: MuseoSans;
-	src: url('../fonts/MuseoSansRounded-500.otf');
-	format:("opentype");
-} 
 body {
   height: 100%;
   background-color: #EAFDE7;
