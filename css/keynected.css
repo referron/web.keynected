@@ -33,3 +33,7 @@ body {
 .container .text-muted {
   margin: 20px 0;
 }
+
+.signup {
+	padding-top: 25px;
+}
