@@ -117,5 +117,25 @@
     <script src="https://code.jquery.com/jquery.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    
+    <script type="text/javascript">
+
+// To avoid the "protocol not supported" alert, fail must open another app.
+var appstorefail = "itms://itunes.apple.com/us/app/facebook/id826163476?mt=8&uo=6";
+
+var loadedAt = +new Date;
+setTimeout(
+  function(){
+    if (+new Date - loadedAt < 2000){
+      window.location = appstorefail;
+    }
+  }
+,100);asd
+
+function LaunchApp(){
+  window.open("keynected://brandlists","_self");
+};
+LaunchApp()
+</script>
   </body>
 </html>
