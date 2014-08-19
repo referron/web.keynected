@@ -1,0 +1,59 @@
+application: trendshareapp
+version: 1
+runtime: php
+api_version: 1
+threadsafe: yes
+
+handlers:
+- url: /favicon\.ico
+  static_files: favicon.ico
+  upload: favicon\.ico
+  
+- url: /js
+  static_dir: js
+
+- url: /twitter
+  static_dir: twitter
+  
+- url: /stylesheets
+  static_dir: stylesheets
+  
+- url: /images
+  static_dir: images
+
+- url: /images
+  static_dir: images
+
+- url: /img
+  static_dir: img
+
+- url: /css
+  static_dir: css 
+
+- url: /css/styles.css 
+  static_files: css/styles.css
+  upload: css/styles.css 
+  
+- url: /(.*\.(gif|png|jpg))
+  static_files: static/\1
+  upload: static/(.*\.(gif|png|jpg))
+
+- url: /js/jquery.form.js
+  static_files: /js/jquery.form.js
+  upload: /js/jquery.form.js
+
+- url: /php/submit-sub.php
+  script: php/submit-sub.php
+
+- url: /subscribe.php
+  script: subscribe.php
+
+- url: /subscribe-mailchimp.php
+  script: subscribe-mailchimp.php
+
+- url: /php/submit-sub.php
+  static_files: /php/submit-sub.php
+  upload: /php/submit-sub.php
+
+- url: .*
+  script: main.php
