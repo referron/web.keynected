@@ -1057,12 +1057,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 }
 
 .request-access {
-    padding-top: 25px;
+    padding-top: 8px;
     color: #ffffff;
 }
 
 .request-access-b {
-    padding-top: 5px;
+    padding-top: 2px;
     color: #ffffff;
 }
 
