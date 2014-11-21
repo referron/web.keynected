@@ -1080,6 +1080,12 @@ td.visible-md {
   display: none !important;
 }
 @media (max-width: 767px) {
+
+ .iphone5-slider{
+     display: none;
+     width: 0%;
+ }
+
   .visible-md.visible-xs {
     display: block !important;
   }

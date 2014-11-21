@@ -16,6 +16,10 @@
     <link href="css/colors/torquoise.css" rel="stylesheet" media="screen">
     <link href="css/responsive.css" rel="stylesheet" media="screen">
 
+    <link rel="stylesheet" href="css/prettyPhoto.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="stylesheet" href="css/flexslider.css">
+
     <!-- Google fonts -->
     <link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic"
           rel="stylesheet" type="text/css">
@@ -59,7 +63,12 @@
 <section id="home">
     <div class="container">
         <div class="row">
-            <div id="homescreen" class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1">
+            <div id="logo" style="text-align: center">
+                <a href="#home">
+                    <img src="images/logo_transparent2.png" alt="logo">
+                </a>
+            </div>
+            <div id="homescreen" class="col-sm-10 col-sm-offset-1 col-md-10 col-md-offset-1 col-lg-10 col-lg-offset-1" style="margin-left:0%">
 
                 <!--<div class="inspiredSearchContentWrapper " style="background-image: url(images/bkgd.jpg);">-->
                 <!-- url(https://s-passets-ec.pinimg.com/webapp/style/app/desktop/images/inspired/bg_pasta.444ce754.jpg);">  -->
@@ -74,83 +83,74 @@
                 <!--</div>-->
                 <!-- end video-container -->
 
-                <div id="logo" >
-                    <a href="#home">
-                        <img src="images/logo_transparent2.png" alt="logo">
-                    </a>
-                </div>
-                <!-- <div id="logo_header"><h5>Never miss out on the things you love.</h5></div> -->
-                <!--<div id="slogan"><h1>Unlock the secret to staying connected.</h1></div>-->
-                <!--<div id="slogan">Build a closer relationship with your audience.</div>-->
-                <div class="request-access-c">Build a closer relationship with your audience.</div>
-                </br>
 
-                <style type="text/css">
-                    #vertical-2 thead, #vertical-2 tbody {
-                        display: inline-block;
-                    }
-                </style>
 
-                <table id="vertical-2" class="cta4">
-                    <!--<thead>-->
-                    <!--&lt;!&ndash;<tr>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<th></th>&ndash;&gt;-->
-                        <!--&lt;!&ndash;<th></th>&ndash;&gt;-->
-                    <!--&lt;!&ndash;</tr>&ndash;&gt;-->
-                    <!--</thead>-->
-                    <tbody>
-                    <tr>
-                        <!--<td><a href="#" class="cta1" id="button_more">Learn More</a></td>-->
-                        <td><a href="#">
-                            <img src="images/lm2.png" type="image/jpg" id="button_more" class="cta3" alt="logo">
-                        </a></td>
-                        <td>.</td>
-                    </tr>
-                    <tr>
-                        <td><a href="https://itunes.apple.com/au/app/keynected/id826163476?mt=8" class="cta3">
-                            <img src="images/apps.jpg" type="image/jpg" id="button_download" class="cta3" alt="logo">
-                            <!-- <object href="#" type="image/jpg" id="button_download" class="cta3" data="images/apps.jpg" >Your browser does not support SVG</object> -->
-                        </a></td>
-                    </tr>
-                    </tbody>
-                </table>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6  col-lg-6" style="text-align: right">
+                            <div id="iphone5-slider">
+                                <div class="flexslider">
+                                    <ul class="slides">
+                                    <li>
+                                        <img src="images/slides/s2.png" alt="slider" style="width: 284px;">
+                                    </li>
+                                    <li>
+                                        <img src="images/slides/s7.png" alt="slider" style="width: 284px;">
+                                    </li>
+                                    <li>
+                                        <img src="images/slides/s1.png" alt="slider" style="width: 284px;">
+                                    </li>
+                                    <li>
+                                        <img src="images/slides/s3.png" alt="slider" style="width: 284px;">
+                                    </li>
+                                    <li>
+                                        <img src="images/slides/s4.png" alt="slider" style="width: 284px;">
+                                    </li>
+                                    <li>
+                                        <img src="images/slides/s5.png" alt="slider" style="width: 284px;">
+                                    </li>
+                                        <li>
+                                            <img src="images/slides/s6.png" alt="slider" style="width: 284px;">
+                                        </li>
+                                        <li>
+                                            <img src="images/slides/10.png" alt="slider" style="width: 284px;">
+                                        </li>
+                                        <li>
+                                            <img src="images/slides/s8.png" alt="slider" style="width: 284px;">
+                                        </li>
+                                        <li>
+                                            <img src="images/slides/s9.png" alt="slider" style="width: 284px;">
+                                        </li>
+                                    </ul>
+                                </div> <!-- END FLEXSLIDER -->
+                            </div><!-- END IPHONE 5 SLIDER -->
+                        </div>
 
-                <div class="request-access">Manage Social media for a brand, celebrity or cause?</div>
-                <div class="request-access-b">Request access to the portal below</div>
-
-                <div class="row signup">
-
-                    <div class="col-md-6 col-md-offset-3">
-                        <!-- Begin MailChimp Signup Form -->
-                        <form action="http://keynected.us3.list-manage2.com/subscribe/post?u=221dbb28e58684f167e141b9a&amp;id=bae7c76c87"
-                              method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"
-                              class="validate" target="_blank" novalidate role="form">
-                            <input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL"
-                                   placeholder="Email address" required>
-                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-                            <div style="position: absolute; left: -5000px;">
-                                <input type="text" name="b_221dbb28e58684f167e141b9a_bae7c76c87" value="">
-                            </div>
-                            <div class="clear">
-                                <br>
-                                <input type="submit" value="Request Access!" name="subscribe" id="mc-embedded-subscribe"
-                                       class="btn btn-warning  btn-lg btn-outline btn-block">
-                                <!--  class="btn btn-warning btn-lg btn-block"> -->
-                            </div>
+                        <div class="col-sm-6 col-md-6 col-lg-6" style="text-align: left">
+                        <br/><br/>
+                        <h3 style="color: #ffffff">Introducing a new way to subscribe to clean and uncluttered news feeds from your favourite brands.</h3>
+                        <br/>
+                        <!--<div class="request-access-c">Keynected is your personal Social Media Hub, filled with the things you care about.-->
+                            <!--Catch up on news, be notified of social media posts from brands you care about.-->
+                            <!--Create collections of news and share them or follow your friends. </div>-->
+                            <!--<br/>-->
+                            <!--<div class="request-access-c">-->
+                            <!--With Controlled Notification Alerts, you can ensure you never miss a post from the brands you care about.-->
                             <!--</div>-->
-                        </form>
-                        <!--End mc_embed_signup-->
+                            <div class="request-access-c">Keynected is your personal Social Media Hub, filled with the things you care about.
+                                Catch up on news, be notified of social media posts from brands you care about.
+                                Create collections of news and share them or follow your friends. </div>
+                            <br/>
+                            <div class="request-access-c">
+                                With Controlled Notification Alerts, you can ensure you never miss a post from the brands you care about.
+                            </div>
+                        <br/>
+                        <a href="https://itunes.apple.com/au/app/keynected/id826163476?mt=8" class="cta3">
+                        <img src="images/apps.jpg" type="image/jpg" id="button_download" class="cta3" alt="logo">
+                        </a>
+                     </div>
                     </div>
-                    <!-- <input type="image" class="cta3" data="images/apps.jpg">sd </input> -->
-                    <!-- <a href="https://itunes.apple.com/au/app/keynected/id826163476?mt=8" margin-top="225px"> -->
-                    <!-- <a href -->
-                    <!-- <a href="#" type="image/jpg" id="button_download" class="cta3" data="images/apps.jpg" margin-top="225px">Your browser does not support SVG</a> -->
-                    <!-- </a> -->
-                    <!-- <a href="#" class="cta2" id="button_download">Download Now</a>     -->
                 </div>
-
-
-                <!--<img src="images/homescreen.png" class="img-responsive" id="home_image" alt="img"> -->
             </div>
             <div class="clearfix"></div>
         </div>
@@ -599,6 +599,18 @@
 <script src="js/waypoints.min.js"></script>
 <script src="js/owl.carousel.min.js"></script>
 <script src="js/nivo-lightbox.min.js"></script>
+
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script><!-- jQuery main file -->-->
+<script src="js/jquery.prettyPhoto.js" type="text/javascript"></script>
+<!--<script src="js/1.8.2/jquery.min.js" type="text/javascript"></script>-->
+<script src="js/jquery.flexslider.js" type="text/javascript"></script>
+<script src="js/jquery.quovolver.js" type="text/javascript"></script>
+<!--<script src="js/jquery.tweet.js" type="text/javascript"></script>-->
+<!--<script src="js/jquery.form.js" type="text/javascript"></script>-->
+<script src="js/scripts.js" type="text/javascript"></script>
+
+
+
 <script type="text/javascript">
     $('document').ready(function () {
         $('#subscribe-form').ajaxForm({
