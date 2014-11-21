@@ -329,6 +329,23 @@ hr {
     opacity:1;
 }
 
+/*.cta3 {*/
+    /*margin:0;*/
+    /*width: 3rem;*/
+    /*height: 3rem;*/
+    /*padding:0.2rem;*/
+    /*background-color:white;*/
+    /*-webkit-border-radius: 100%;*/
+    /*-moz-border-radius: 100%;*/
+    /*border-radius: 100%;*/
+    /*transform:rotate(89deg);*/
+    /*-webkit-transform:rotate(89deg);*/
+    /*-moz-transform:rotate(89deg);*/
+    /*-o-transform:rotate(89deg);*/
+    /*-ms-transform:rotate(89deg);*/
+    /*ms-transform:rotate(89deg);*/
+/*}*/
+
 .cta3:visited, .cta3:active {
     color:transparent;
     text-decoration:none;
@@ -1059,7 +1076,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
 .btn-warning {
     color: #ffffff;
     background-color: #519548;
-    border-color: #ffffff;
+    /*border-color: #ffffff;*/
 }
 
 .signup {
@@ -1082,24 +1099,28 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     color: #ffffff;
 }
 
-.btn {
-
-    padding: 6px 12px;
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: normal;
-    line-height: 1.428571429;
-    text-align: center;
-    white-space: nowrap;
-    vertical-align: middle;
-    background-image: none;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -o-user-select: none;
-}
+/*.btn {*/
+    /*background-image: url(../images/android.png);*/
+    /*background-repeat: no-repeat;*/
+    /*background-color: transparent;*/
+    /*padding: 6px 12px;*/
+    /*width: 162px;*/
+    /*height: 53px;*/
+    /*margin-bottom: 0;*/
+    /*font-size: 14px;*/
+    /*font-weight: normal;*/
+    /*line-height: 1.428571429;*/
+    /*text-align: center;*/
+    /*white-space: nowrap;*/
+    /*vertical-align: middle;*/
+    /*background-image: none;*/
+    /*border: 0px solid transparent;*/
+    /*border-radius: 4px;*/
+    /*-webkit-user-select: none;*/
+    /*-moz-user-select: none;*/
+    /*-ms-user-select: none;*/
+    /*-o-user-select: none;*/
+/*}*/
 
 #iphone5-slider {
     background-image: url(../images/devices/iphone5black.png);
@@ -1350,5 +1371,12 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
         -webkit-animation-delay: 1s /* Safari and Chrome */;
     }
 
+
 }
 
+#navlist li
+{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
