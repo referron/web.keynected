@@ -2,32 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8ec54a28-f6ed-43f2-a116-a4807fc37835" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/10.PNG" afterPath="$PROJECT_DIR$/images/slides/10.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/IMG_0282.PNG" afterPath="$PROJECT_DIR$/images/slides/IMG_0282.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/IMG_0283.PNG" afterPath="$PROJECT_DIR$/images/slides/IMG_0283.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/IMG_0284.PNG" afterPath="$PROJECT_DIR$/images/slides/IMG_0284.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/IMG_0287.PNG" afterPath="$PROJECT_DIR$/images/slides/IMG_0287.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/IMG_0289.PNG" afterPath="$PROJECT_DIR$/images/slides/IMG_0289.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/IMG_0290.PNG" afterPath="$PROJECT_DIR$/images/slides/IMG_0290.PNG" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/info-1.png" afterPath="$PROJECT_DIR$/images/slides/info-1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/devices/iphone5black.png" afterPath="$PROJECT_DIR$/images/devices/iphone5black.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/logo_transparent2.png" afterPath="$PROJECT_DIR$/images/logo_transparent2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s1.png" afterPath="$PROJECT_DIR$/images/slides/s1.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s2.png" afterPath="$PROJECT_DIR$/images/slides/s2.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s3.png" afterPath="$PROJECT_DIR$/images/slides/s3.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s4.png" afterPath="$PROJECT_DIR$/images/slides/s4.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s5.png" afterPath="$PROJECT_DIR$/images/slides/s5.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s6.png" afterPath="$PROJECT_DIR$/images/slides/s6.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s7.png" afterPath="$PROJECT_DIR$/images/slides/s7.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s8.png" afterPath="$PROJECT_DIR$/images/slides/s8.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/slides/s9.png" afterPath="$PROJECT_DIR$/images/slides/s9.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/flexslider.css" afterPath="$PROJECT_DIR$/css/flexslider.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/css/flexslider.css" afterPath="$PROJECT_DIR$/faq/css/flexslider.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/faq/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/faq/js/jquery.flexslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/jquery.flexslider.js" afterPath="$PROJECT_DIR$/js/jquery.flexslider.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/style.css" afterPath="$PROJECT_DIR$/css/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Keynected-Web.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,11 +26,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-4.253165" vertical-offset="1044" max-vertical-offset="10740">
-              <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
+            <state vertical-scroll-proportion="0.5045045" vertical-offset="579" max-vertical-offset="10740">
+              <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -80,6 +56,16 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="torquoise.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/colors/torquoise.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1560">
+              <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="flexslider.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/flexslider.css">
           <provider selected="true" editor-type-id="text-editor">
@@ -100,11 +86,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.29445234" vertical-offset="16608" max-vertical-offset="21105">
-              <caret line="1121" column="29" selection-start-line="1121" selection-start-column="29" selection-end-line="1121" selection-end-column="29" />
+            <state vertical-scroll-proportion="-4.2545457" vertical-offset="8796" max-vertical-offset="21105">
+              <caret line="602" column="0" selection-start-line="602" selection-start-column="0" selection-end-line="602" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -132,8 +118,8 @@
         <option value="$PROJECT_DIR$/faq/js/jquery.flexslider.js" />
         <option value="$PROJECT_DIR$/faq/css/flexslider.css" />
         <option value="$PROJECT_DIR$/css/flexslider.css" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -348,13 +334,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/faq/js/jquery.flexslider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1722" max-vertical-offset="13515">
-          <caret line="138" column="73" selection-start-line="138" selection-start-column="73" selection-end-line="138" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/faq/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="4135" max-vertical-offset="26445">
@@ -707,10 +686,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/colors/torquoise.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="802" max-vertical-offset="1560">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2545457" vertical-offset="8796" max-vertical-offset="21105">
+          <caret line="602" column="0" selection-start-line="602" selection-start-column="0" selection-end-line="602" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.253165" vertical-offset="1044" max-vertical-offset="10740">
-          <caret line="92" column="55" selection-start-line="92" selection-start-column="55" selection-end-line="92" selection-end-column="55" />
+        <state vertical-scroll-proportion="0.5045045" vertical-offset="579" max-vertical-offset="10740">
+          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -732,14 +727,6 @@
             <element signature="n#style#0;n#div#0;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#input#0;n#div#1;n#form#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#section#7;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.29445234" vertical-offset="16608" max-vertical-offset="21105">
-          <caret line="1121" column="29" selection-start-line="1121" selection-start-column="29" selection-end-line="1121" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
