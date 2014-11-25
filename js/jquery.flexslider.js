@@ -131,7 +131,7 @@
         // API: start() Callback
         setTimeout(function(){
           vars.start(slider);
-        }, 200);
+        }, 100);
       },
       asNav: {
         setup: function() {
@@ -813,7 +813,7 @@
     smoothHeight: false,            //{NEW} Boolean: Allow height of the slider to animate smoothly in horizontal mode  
     startAt: 0,                     //Integer: The slide that the slider should start on. Array notation (0 = first slide)
     slideshow: true,                //Boolean: Animate slider automatically
-    slideshowSpeed: 1000,           //Integer: Set the speed of the slideshow cycling, in milliseconds
+    slideshowSpeed: 500,           //Integer: Set the speed of the slideshow cycling, in milliseconds
     animationSpeed: 600,            //Integer: Set the speed of animations, in milliseconds
     initDelay: 0,                   //{NEW} Integer: Set an initialization delay, in milliseconds
     randomize: false,               //Boolean: Randomize slide order
@@ -873,7 +873,7 @@
             $slides = $this.find(selector);
 
         if ($slides.length === 1) {
-          $slides.fadeIn(400);
+          $slides.fadeIn(200);
           if (options.start) options.start($this);
         } else if ($this.data('flexslider') === undefined) {
           new $.flexslider(this, options);

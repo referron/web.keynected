@@ -1127,7 +1127,7 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     width: auto;
     background-repeat: no-repeat;
     margin-top: 00px;
-    margin-left: 80px;
+    margin-left: 120px;
     /*overflow: hidden;*/
     height: 698px;
 }
@@ -1196,6 +1196,26 @@ button, html input[type="button"], input[type="reset"], input[type="submit"] {
     /*left: 22px;*/
     /*top: 97px;*/
 /*}*/
+
+@media (max-width: 480px)
+{
+    .intro {
+        /*display: none;*/
+        font-size: 14px;
+        line-height: 16px;
+    }
+
+    .largerresonly{
+        font-size: 10px;
+    }
+}
+
+@media (min-width: 480px) and (max-width: 991px) {
+        /*display: none;*/
+    .largerresonly{
+        font-size: 13px;
+    }
+}
 
 @media (min-width: 768px) {
     .animated {
